@@ -1,14 +1,11 @@
-import "/index.css"
-
 function App() {
- 
 
   return (
     <>
       <div>
         <div className='container'>
           <div className=''>
-            <div className='decoration-red-500'>Blum</div>
+            <div className='text-red-500'>Blum</div>
             <div>
               <ul>
                 <li>1</li>
@@ -23,4 +20,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
