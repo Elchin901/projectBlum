@@ -1,23 +1,15 @@
-function App() {
+import Menu from "./components/Menu/Menu";
+import Navbar from "./components/Navbar/Navbar";
+import Section1 from "./components/Section1/Section1";
 
+function App() {
   return (
     <>
-      <div>
-        <div className='container'>
-          <div className=''>
-            <div className='text-red-500'>Blum</div>
-            <div>
-              <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Navbar/>
+      <Menu/>
+      <Section1/>
     </>
-  )
+  );
 }
 
 export default App;
