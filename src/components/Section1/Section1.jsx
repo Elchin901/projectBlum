@@ -83,21 +83,20 @@ export default function Section1() {
             </p>
           </div>
         </div>
-
-        
       </div>
 
       <div className="flex justify-around">
-       
         <div className="w-96 py-12">
           <div className="py-3">
             <img src="ico5.svg"></img>
           </div>
           <div className="text-white">
-            <h3 className="font-bold text-3xl py-6">Your gateway to a rewarding crypto experience</h3>
+            <h3 className="font-bold text-3xl py-6">
+              Your gateway to a rewarding crypto experience
+            </h3>
             <p className="text-gray-500 font-bold  mr-24">
-            At Blum, we believe in making your crypto journey 
-            not just profitable, but also enjoyable and interactive
+              At Blum, we believe in making your crypto journey not just
+              profitable, but also enjoyable and interactive
             </p>
           </div>
           <div className="text-gray-400 text-sm font-mono text-cenetr flex flex-wrap gap-2 py-5 ">
@@ -114,9 +113,34 @@ export default function Section1() {
               <h4>Ordinals & NFTs</h4>
             </div>
           </div>
-        </div> 
+        </div>
         <div className="text-center w-80">
           <img src="phone4.png" className="h-[85vh]"></img>
+        </div>
+      </div>
+
+      <div className=" text-center block py-40 ">
+        <div className="bg-lime-400 py-4 ">
+          <span className="text-black text-3xl  font-bold">
+            TRADE, CONNECT, GROW - EMBRACE THE FUTURE OF CRYPTO - TRADE,
+            CONNECT, GROW -
+          </span>
+        </div>
+      </div>
+
+      <div className="flex justify-around pt-10 rounded-xl bg-lime-300 mx-8">
+        <div className="w-1/4 text-center content-center ">
+          <div className=" text-center">
+            <h3 className="text-4xl font-bold ">Start your crypto journey with Blum today</h3>
+          </div>
+          <div className="py-10">
+            <button className="bg-white content-center text-black font-semibold rounded-xl py-4 px-6">
+              <a href="#">Launch Blum on Telegram</a>
+            </button>
+          </div>
+        </div>
+        <div className="w-1/3">
+          <img src="phone5.png"></img>
         </div>
       </div>
     </nav>
