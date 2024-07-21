@@ -30,8 +30,8 @@ export default function LastBar() {
             </p>
           </div>
 
-          <div className="w-1/3 flex">
-            <div className="flex space-x-10 justify-end">
+          <div className="w-1/3 flex relative">
+            <div className="flex absolute m-0 bottom-0 right-0 space-x-10 justify-end">
               <a href="#">
                 <img src="/telegram.svg" className="w-6 h-6"></img>
               </a>
