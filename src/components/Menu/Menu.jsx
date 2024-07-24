@@ -9,22 +9,30 @@ export default function Menu() {
           <a href="#">Launch Blum on Telegram</a>
         </button>
 
-        <div className="z-0 pt-40 absolute ">
-          <div className="logos group relative overflow-hidden whitespace-nowrap   py-10 ">
-            <div className="animate-slide-left-infinite  inline-block ">
-              <img src="toke1.png" className=" inline h-70" />
-              <img src="toke2.png" className=" inline h-70" />
-              <img src="toke3.png" className=" inline h-70" />
-              <img src="toke4.png" className=" inline h-70" />
-              <img src="toke5.png" className=" inline h-70" />
+        <div className="z-0 pt-40 absolute w-full  ">
+          <div className=" relative overflow-hidden whitespace-nowrap ">
+            <div className="animate-slide-left-infinite  flex ">
+              <img src="toke1.png" className=" inline  mx-20 " />
+              <img src="toke2.png" className=" inline  mx-20" />
+              <img src="toke4.png" className=" inline  mx-20" />
+              <img src="toke1.png" className=" inline  mx-20 " />
+              <img src="toke2.png" className=" inline  mx-20" />
+              <img src="toke4.png" className=" inline  mx-20" />
+              <img src="toke1.png" className=" inline  mx-20 " />
+              <img src="toke2.png" className=" inline  mx-20" />
+              <img src="toke4.png" className=" inline  mx-20" />
+              <img src="toke1.png" className=" inline  mx-20 " />
+              <img src="toke2.png" className=" inline  mx-20" />
+              <img src="toke4.png" className=" inline  mx-20" />
             </div>
-            <div className="animate-slide-left-infinite  inline-block ">
-              <img src="toke1.png" className=" inline h-70" />
-              <img src="toke2.png" className=" inline h-70" />
-              <img src="toke3.png" className=" inline h-70" />
-              <img src="toke4.png" className=" inline h-70" />
-              <img src="toke5.png" className=" inline h-70" />
-            </div>
+            {/* <div className="animate-slide-left-infinite  inline-block  ">
+              <img src="toke1.png" className=" inline  mx-20 " />
+              <img src="toke2.png" className=" inline  mx-20" />
+              <img src="toke4.png" className=" inline  mx-20" />
+              <img src="toke1.png" className=" inline  mx-20 " />
+              <img src="toke2.png" className=" inline  mx-20" />
+              <img src="toke4.png" className=" inline  mx-20" />
+            </div> */}
           </div>
         </div>
 

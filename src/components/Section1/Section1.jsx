@@ -121,7 +121,7 @@ export default function Section1() {
       </div>
 
       <div className=" w-full inline-flex flex-nowrap py-40 ">
-        <div className="transform overflow-hidden whitespace-nowrap  py-4 bg-lime-400  flex items-center justify-center">
+        <div className="transform rotate-3 mx-1 overflow-hidden whitespace-nowrap  py-4 bg-lime-400 ">
             <div className="animate-slide-left-infinite  inline-block ">
               <span className="text-black text-3xl  font-bold inline "> TRADE, CONNECT, GROW - EMBRACE THE FUTURE OF CRYPTO -</span>
               <span className="text-black text-3xl  font-bold inline "> TRADE, CONNECT, GROW - EMBRACE THE FUTURE OF CRYPTO -</span>
