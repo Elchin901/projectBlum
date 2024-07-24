@@ -1,4 +1,5 @@
 export default function Section1() {
+  
   return (
     <nav className="bg-black">
       <div className="flex justify-evenly  ">
@@ -120,12 +121,18 @@ export default function Section1() {
       </div>
 
       <div className=" w-full inline-flex flex-nowrap py-40 ">
-        <div className="bg-lime-400 py-4 flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none">
-          <span className="text-black text-3xl  font-bold">
-            TRADE, CONNECT, GROW - EMBRACE THE FUTURE OF CRYPTO - TRADE,
-            CONNECT, GROW -
-          </span>
-        </div>
+        <div className="transform overflow-hidden whitespace-nowrap  py-4 bg-lime-400  flex items-center justify-center">
+            <div className="animate-slide-left-infinite  inline-block ">
+              <span className="text-black text-3xl  font-bold inline "> TRADE, CONNECT, GROW - EMBRACE THE FUTURE OF CRYPTO -</span>
+              <span className="text-black text-3xl  font-bold inline "> TRADE, CONNECT, GROW - EMBRACE THE FUTURE OF CRYPTO -</span>
+             
+            </div>
+            <div className="animate-slide-left-infinite  inline-block ">
+            <span className="text-black text-3xl  font-bold inline "> TRADE, CONNECT, GROW - EMBRACE THE FUTURE OF CRYPTO -</span>
+              <span className="text-black text-3xl  font-bold inline "> TRADE, CONNECT, GROW - EMBRACE THE FUTURE OF CRYPTO -</span>
+             
+            </div>
+          </div>
       </div>
 
       <div className="flex justify-around pt-10 rounded-xl bg-lime-300 mx-8">

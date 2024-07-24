@@ -10,14 +10,16 @@ export default {
         customGray : 'rgba(46, 46, 46, .7)',
       },
 
-      animation:{
-        "loop-scroll":"loop-scroll 10s linear infinite",
+      keyframes: {
+        'slide-left': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        },
       },
-      keyframes:{"loop-scroll":{
-        from: {transform:"translateX(0)"},
-        to :{transform: "translateX(-100%)"},
+      animation: {
+        'slide-left-infinite': 'slide-left 10s linear infinite',
       },
-    }, 
+     
     },
   },
   plugins: [],
