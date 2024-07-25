@@ -9,7 +9,7 @@ export default function Menu() {
           <a href="#">Launch Blum on Telegram</a>
         </button>
 
-        <div className="z-0 pt-40 absolute w-full  ">
+        <div className="z-0 pt-96 absolute w-full  ">
           <div className=" relative overflow-hidden whitespace-nowrap ">
             <div className="animate-slide-left-infinite  flex ">
               <img src="toke1.png" className=" inline  mx-20 " />
