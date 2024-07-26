@@ -4,7 +4,7 @@ export default function Section1() {
     <nav className="bg-black">
       <div className="flex justify-evenly  ">
         <div className="text-center w-1/4">
-          <img src="phone2.png" className="h-[80vh]"></img>
+          <img src="phone2.png" className="h-[80vh] fade-in"></img>
         </div>
         <div className="w-1/4 py-12">
           <div className="py-3">
