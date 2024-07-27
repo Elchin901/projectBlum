@@ -8,7 +8,7 @@ export default function Section1() {
         </div>
         <div className="w-1/4 py-12">
           
-            {/* <div className="py-3">
+            {/* <div className="py-3 fade-in">
               <img src="ico1.svg"></img>
             </div> */}
          
