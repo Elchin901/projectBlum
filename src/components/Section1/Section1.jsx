@@ -1,5 +1,5 @@
+
 export default function Section1() {
-  
   return (
     <nav className="bg-black">
       <div className="flex justify-evenly  ">
@@ -7,9 +7,12 @@ export default function Section1() {
           <img src="phone2.png" className="h-[80vh] fade-in"></img>
         </div>
         <div className="w-1/4 py-12">
-          <div className="py-3">
-            <img src="ico1.svg"></img>
-          </div>
+          
+            <div className="py-3">
+              <img src="ico1.svg"></img>
+            </div>
+         
+
           <div className="text-white">
             <h3 className="font-bold text-3xl py-6">Every coin you need</h3>
             <p className="text-gray-500 font-bold  mr-24">
@@ -122,23 +125,35 @@ export default function Section1() {
 
       <div className=" w-full inline-flex flex-nowrap py-40 ">
         <div className="transform rotate-3 mx-1 overflow-hidden whitespace-nowrap  py-4 bg-lime-400 ">
-            <div className="animate-slide-left-infinite  inline-block ">
-              <span className="text-black text-3xl  font-bold inline "> TRADE, CONNECT, GROW - EMBRACE THE FUTURE OF CRYPTO -</span>
-              <span className="text-black text-3xl  font-bold inline "> TRADE, CONNECT, GROW - EMBRACE THE FUTURE OF CRYPTO -</span>
-             
-            </div>
-            <div className="animate-slide-left-infinite  inline-block ">
-            <span className="text-black text-3xl  font-bold inline "> TRADE, CONNECT, GROW - EMBRACE THE FUTURE OF CRYPTO -</span>
-              <span className="text-black text-3xl  font-bold inline "> TRADE, CONNECT, GROW - EMBRACE THE FUTURE OF CRYPTO -</span>
-             
-            </div>
+          <div className="animate-slide-left-infinite  inline-block ">
+            <span className="text-black text-3xl  font-bold inline ">
+              {" "}
+              TRADE, CONNECT, GROW - EMBRACE THE FUTURE OF CRYPTO -
+            </span>
+            <span className="text-black text-3xl  font-bold inline ">
+              {" "}
+              TRADE, CONNECT, GROW - EMBRACE THE FUTURE OF CRYPTO -
+            </span>
           </div>
+          <div className="animate-slide-left-infinite  inline-block ">
+            <span className="text-black text-3xl  font-bold inline ">
+              {" "}
+              TRADE, CONNECT, GROW - EMBRACE THE FUTURE OF CRYPTO -
+            </span>
+            <span className="text-black text-3xl  font-bold inline ">
+              {" "}
+              TRADE, CONNECT, GROW - EMBRACE THE FUTURE OF CRYPTO -
+            </span>
+          </div>
+        </div>
       </div>
 
       <div className="flex justify-around pt-10 rounded-xl bg-lime-300 mx-8">
         <div className="w-1/4 text-center content-center ">
           <div className=" text-center">
-            <h3 className="text-4xl font-bold ">Start your crypto journey with Blum today</h3>
+            <h3 className="text-4xl font-bold ">
+              Start your crypto journey with Blum today
+            </h3>
           </div>
           <div className="py-10">
             <button className="bg-white content-center text-black font-semibold rounded-xl py-4 px-6">
