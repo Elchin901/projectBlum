@@ -8,9 +8,9 @@ export default function Section1() {
         </div>
         <div className="w-1/4 py-12">
           
-            {/* <div className="py-3 fade-in">
+            <div className="py-3">
               <img src="ico1.svg"></img>
-            </div> */}
+            </div>
          
 
           <div className="text-white">
