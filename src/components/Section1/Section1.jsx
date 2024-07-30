@@ -1,21 +1,26 @@
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 
 export default function Section1() {
+  useEffect(()=>{
+    AOS.init({duration:2500})
+  }, [])
+
   return (
     <nav className="bg-black">
       <div className="flex justify-evenly  ">
-        <div className="text-center w-1/4">
-          <img src="phone2.png" className="h-[80vh] fade-in"></img>
+        <div className="text-center w-1/4 ">
+            <img src="phone2.png" className="h-[80vh] animation" data-aos="zoom-in"></img>  
         </div>
         <div className="w-1/4 py-12">
-          
-            <div className="py-3">
-              <img src="ico1.svg"></img>
-            </div>
-         
+          <div className="py-3">
+            <img src="ico1.svg"></img>
+          </div>
 
           <div className="text-white">
             <h3 className="font-bold text-3xl py-6">Every coin you need</h3>
-            <p className="text-gray-500 font-bold  mr-24">
+            <p className="text-gray-500 font-bold   mr-24">
               Blum brings you every coin you need. Just one place, no more
               switching between multiple platforms. Easy, right?
             </p>
@@ -62,7 +67,7 @@ export default function Section1() {
         </div>
 
         <div className="w-1/5">
-          <img src="phone3.png" className="h-[80vh]"></img>
+          <img src="phone3.png" className="h-[80vh] animation" data-aos="zoom-in"></img>
         </div>
 
         <div className="w-1/5">
@@ -119,7 +124,7 @@ export default function Section1() {
           </div>
         </div>
         <div className="text-center w-80">
-          <img src="phone4.png" className="h-[85vh]"></img>
+          <img src="phone4.png" className="h-[85vh] animation" data-aos="zoom-in"></img>
         </div>
       </div>
 
@@ -149,7 +154,7 @@ export default function Section1() {
       </div>
 
       <div className="flex justify-around pt-10 rounded-xl bg-lime-300 mx-8">
-        <div className="w-1/4 text-center content-center ">
+        <div className="w-1/4 text-center content-center animation " data-aos="zoom-in">
           <div className=" text-center">
             <h3 className="text-4xl font-bold ">
               Start your crypto journey with Blum today

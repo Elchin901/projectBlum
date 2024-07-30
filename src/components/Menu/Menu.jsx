@@ -1,4 +1,11 @@
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
+
 export default function Menu() {
+  useEffect(()=>{
+    AOS.init({duration:2000})
+  }, [])
   return (
     <nav className="bg-black py-10  items-center justify-center">
       <div className="text-center ">
@@ -39,6 +46,67 @@ export default function Menu() {
         <div className="flex justify-center py-32 relative z-10">
           <img src="phone.png" className="cover  w-[30vw]"></img>
         </div>
+
+        <div>
+          <div>
+            <h3 className="text-white text-4xl font-bold font-mono">Support top 30+ chains</h3>
+          </div>
+          {/* <div className="size-28 flex grid">
+            <img src="1.svg"></img>
+            <img src="2.svg"></img>
+            <img src="3.svg"></img>
+            <img src="4.svg"></img>
+            <img src="5.svg"></img>
+            <img src="6.svg"></img>
+            <img src="7.svg"></img>
+            <img src="8.svg"></img>
+            <img src="9.svg"></img>
+            <img src="10.svg"></img>
+            <img src="11.svg"></img>
+            <img src="12.svg"></img>
+
+          </div> */}
+          <div className="grid grid-cols-6 justify-center  gap-24  my-20 px-12" data-aos="zoom-in">
+            <div className="flex justify-center ">
+                <img src="1.svg" alt="Cosmos" className="h-7"/>
+            </div>
+            <div className="flex justify-center ">
+                <img src="2.svg" alt="TON" className="h-7"/>
+            </div>
+            <div className="flex justify-center ">
+                <img src="3.svg" alt="Binance Smart Chain" className="h-7"/>
+            </div>
+            <div className="flex justify-center ">
+                <img src="4.svg" alt="Elrond" className="h-7"/>
+            </div>
+            <div className="flex justify-center ">
+                <img src="5.svg" alt="Polygon" className="h-7"/>
+            </div>
+            <div className="flex justify-center ">
+                <img src="6.svg" alt="Stacks" className="h-7"/>
+            </div>
+            <div className="flex justify-center ">
+                <img src="7.svg" alt="Arbitrum" className="h-7"/>
+            </div>
+            <div className="flex justify-center ">
+                <img src="8.svg" alt="Avalanche" className="h-7"/>
+            </div>
+            <div className="flex justify-center ">
+                <img src="9.svg" alt="Tron" className="h-7"/>
+            </div>
+            <div className="flex justify-center ">
+                <img src="10.svg" alt="Gnosis" className="h-7"/>
+            </div>
+            <div className="flex justify-center ">
+                <img src="11.svg" alt="Gnosis" className="h-7"/>
+            </div>
+            <div className="flex justify-center ">
+                <img src="12.svg" alt="Gnosis" className="h-7"/>
+            </div>
+        </div>
+        </div>
+
+
       </div>
     </nav>
   );
