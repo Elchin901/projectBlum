@@ -9,7 +9,7 @@ export default function Menu() {
   return (
     <nav className="bg-black py-10  items-center justify-center">
       <div className="text-center ">
-        <h1 className="text-white text-8xl font-bold py-12">
+        <h1 className="text-white font-bold py-12 text-8xl xs:text-4xl sm:text-5xl md:text-6xl">
           All Crypto - One App
         </h1>
         <button className="bg-white content-center text-black font-bold rounded-xl py-4 px-6">
@@ -66,42 +66,42 @@ export default function Menu() {
             <img src="12.svg"></img>
 
           </div> */}
-          <div className="grid grid-cols-6 justify-center  gap-24  my-20 px-12" data-aos="zoom-in">
+          <div className="grid grid-cols-6 justify-center  gap-24  my-20 px-12">
             <div className="flex justify-center ">
-                <img src="1.svg" alt="Cosmos" className="h-7"/>
+                <img src="1.svg" alt="Cosmos" className="h-7" data-aos="zoom-in" />
             </div>
             <div className="flex justify-center ">
-                <img src="2.svg" alt="TON" className="h-7"/>
+                <img src="2.svg" alt="TON" className="h-7" data-aos="zoom-in"/>
             </div>
             <div className="flex justify-center ">
-                <img src="3.svg" alt="Binance Smart Chain" className="h-7"/>
+                <img src="3.svg" alt="Binance Smart Chain" className="h-7" data-aos="zoom-in"/>
             </div>
             <div className="flex justify-center ">
-                <img src="4.svg" alt="Elrond" className="h-7"/>
+                <img src="4.svg" alt="Elrond" className="h-7" data-aos="zoom-in"/>
             </div>
             <div className="flex justify-center ">
-                <img src="5.svg" alt="Polygon" className="h-7"/>
+                <img src="5.svg" alt="Polygon" className="h-7" data-aos="zoom-in"/>
             </div>
             <div className="flex justify-center ">
-                <img src="6.svg" alt="Stacks" className="h-7"/>
+                <img src="6.svg" alt="Stacks" className="h-7" data-aos="zoom-in"/>
             </div>
             <div className="flex justify-center ">
-                <img src="7.svg" alt="Arbitrum" className="h-7"/>
+                <img src="7.svg" alt="Arbitrum" className="h-7" data-aos="zoom-in"/>
             </div>
             <div className="flex justify-center ">
-                <img src="8.svg" alt="Avalanche" className="h-7"/>
+                <img src="8.svg" alt="Avalanche" className="h-7" data-aos="zoom-in"/>
             </div>
             <div className="flex justify-center ">
-                <img src="9.svg" alt="Tron" className="h-7"/>
+                <img src="9.svg" alt="Tron" className="h-7" data-aos="zoom-in"/>
             </div>
             <div className="flex justify-center ">
-                <img src="10.svg" alt="Gnosis" className="h-7"/>
+                <img src="10.svg" alt="Gnosis" className="h-7" data-aos="zoom-in"/>
             </div>
             <div className="flex justify-center ">
-                <img src="11.svg" alt="Gnosis" className="h-7"/>
+                <img src="11.svg" alt="Gnosis" className="h-7" data-aos="zoom-in"/>
             </div>
             <div className="flex justify-center ">
-                <img src="12.svg" alt="Gnosis" className="h-7"/>
+                <img src="12.svg" alt="Gnosis" className="h-7" data-aos="zoom-in"/>
             </div>
         </div>
         </div>
