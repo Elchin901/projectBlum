@@ -9,24 +9,24 @@ export default function Section1() {
 
   return (
     <nav className="bg-black">
-      <div className="flex justify-evenly  md:flex-col md:items-center md:text-center sm:flex-col sm:items-center sm:text-center  ">
-        <div className=" w-1/4  md:w-1/2 sm:w-1/2 flex justify-center items-center ">
+      <div className="flex justify-evenly  md:flex-col md:items-center md:text-center sm:flex-col sm:items-center sm:text-center xs:flex-col xs:items-center xs:text-center  ">
+        <div className=" w-1/4  md:w-1/2 sm:w-1/2 xs:w-10/12 flex justify-center items-center ">
             <img src="phone2.png" className="h-[80vh] animation object-center" data-aos="zoom-in"></img>  
         </div>
 
-        <div className="w-1/4 md:w-4/6 sm:w-10/12 flex md:justify-center md:items-center flex-col  py-12">
+        <div className="w-1/4 md:w-4/6 sm:w-10/12 xs:w-10/12 flex md:justify-center md:items-center sm:justify-center sm:items-center xs:justify-center xs:items-center flex-col  py-12">
           <div className="py-3">
             <img src="ico1.svg"></img>
           </div>
 
           <div className="text-white ">
             <h3 className="font-bold text-3xl py-6">Every coin you need</h3>
-            <p className="text-gray-500 font-bold md:mx-0  mr-24">
+            <p className="text-gray-500 font-bold md:mx-0 sm:justify-center sm:items-center sm:mx-0  xs:justify-center xs:items-center xs:mx-0 mr-24">
               Blum brings you every coin you need. Just one place, no more
               switching between multiple platforms. Easy, right?
             </p>
           </div>
-          <div className="text-gray-400 text-sm font-mono md:px-0 md:px-0 flex flex-wrap gap-2 py-5 ">
+          <div className="text-gray-400 text-sm font-mono md:px-0 sm:px-0 sm:justify-center sm:items-center xs:px-0 xs:justify-center xs:items-center flex flex-wrap gap-2 py-5 ">
             <div className="bg-customGray    font-bold rounded-md px-4 py-3 ">
               <h4>Classic Tokens</h4>
             </div>
@@ -43,11 +43,11 @@ export default function Section1() {
         </div>
       </div>
 
-      <div className="flex justify-around px-6 py-48">
-        <div className="w-1/5">
+      <div className="flex md:flex-col md:justify-center md:items-center md:text-center sm:flex-col sm:justify-center sm:items-center sm:text-center xs:flex-col xs:justify-center xs:items-center xs:text-center justify-around px-6 py-48">
+        <div className="w-1/5 md:w-4/6 sm:w-5/6 xs:w-5/6">
           <div>
             <div>
-              <img src="ico1.svg" alt="" className="py-4" />
+              <img src="ico1.svg" alt="" className="py-4 md:m-auto sm:m-auto xs:m-auto" />
             </div>
             <h3 className="text-white text-2xl font-bold py-6 ">Easy to use</h3>
             <p className="text-gray-600 text-base font-medium ">
@@ -57,7 +57,7 @@ export default function Section1() {
           </div>
           <div className="py-10">
             <div>
-              <img src="ico3.svg" alt="" className="py-4" />
+              <img src="ico3.svg" alt="" className="py-4 md:m-auto sm:m-auto xs:m-auto" />
             </div>
             <h3 className="text-white text-2xl font-bold py-6 ">Easy to use</h3>
             <p className="text-gray-600 text-base font-medium ">
@@ -67,14 +67,14 @@ export default function Section1() {
           </div>
         </div>
 
-        <div className="w-1/5">
-          <img src="phone3.png" className="h-[80vh] animation" data-aos="zoom-in"></img>
+        <div className="w-1/5 md:4/6 sm:w-5/6 xs:w-5/6">
+          <img src="phone3.png" className="h-[80vh] animation md:m-auto sm:m-auto xs:m-auto " data-aos="zoom-in"></img>
         </div>
 
-        <div className="w-1/5">
+        <div className="w-1/5 md:w-4/6 sm:w-5/6 xs:w-5/6">
           <div>
             <div>
-              <img src="ico4.svg" alt="" className="py-4" />
+              <img src="ico4.svg" alt="" className="py-4 md:m-auto sm:m-auto xs:m-auto" />
             </div>
             <h3 className="text-white text-2xl font-bold py-6 ">Easy to use</h3>
             <p className="text-gray-600 text-base font-medium ">
@@ -84,7 +84,7 @@ export default function Section1() {
           </div>
           <div className="py-10">
             <div>
-              <img src="ico5.svg" alt="" className="py-4" />
+              <img src="ico5.svg" alt="" className="py-4 md:m-auto sm:m-auto xs:m-auto" />
             </div>
             <h3 className="text-white text-2xl font-bold py-6 ">Easy to use</h3>
             <p className="text-gray-600 text-base font-medium ">
@@ -95,7 +95,7 @@ export default function Section1() {
         </div>
       </div>
 
-      <div className="flex justify-around">
+      <div className="flex justify-around md:flex-col md:items-center md:text-center sm:flex-col sm:items-center sm:text-center xs:flex-col xs:items-center xs:text-center">
         <div className="w-96 py-12">
           <div className="py-3">
             <img src="ico5.svg"></img>
@@ -128,6 +128,9 @@ export default function Section1() {
           <img src="phone4.png" className="h-[85vh] animation" data-aos="zoom-in"></img>
         </div>
       </div>
+
+
+
 
       <div className=" w-full inline-flex flex-nowrap py-40 ">
         <div className="transform rotate-3 mx-1 overflow-hidden whitespace-nowrap  py-4 bg-lime-400 ">
