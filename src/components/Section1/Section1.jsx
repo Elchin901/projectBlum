@@ -9,23 +9,24 @@ export default function Section1() {
 
   return (
     <nav className="bg-black">
-      <div className="flex justify-evenly  ">
-        <div className="text-center w-1/4 ">
-            <img src="phone2.png" className="h-[80vh] animation" data-aos="zoom-in"></img>  
+      <div className="flex justify-evenly  md:flex-col md:items-center md:text-center sm:flex-col sm:items-center sm:text-center  ">
+        <div className=" w-1/4  md:w-1/2 sm:w-1/2 flex justify-center items-center ">
+            <img src="phone2.png" className="h-[80vh] animation object-center" data-aos="zoom-in"></img>  
         </div>
-        <div className="w-1/4 py-12">
+
+        <div className="w-1/4 md:w-4/6 sm:w-10/12 flex md:justify-center md:items-center flex-col  py-12">
           <div className="py-3">
             <img src="ico1.svg"></img>
           </div>
 
-          <div className="text-white">
+          <div className="text-white ">
             <h3 className="font-bold text-3xl py-6">Every coin you need</h3>
-            <p className="text-gray-500 font-bold   mr-24">
+            <p className="text-gray-500 font-bold md:mx-0  mr-24">
               Blum brings you every coin you need. Just one place, no more
               switching between multiple platforms. Easy, right?
             </p>
           </div>
-          <div className="text-gray-400 text-sm font-mono text-cenetr flex flex-wrap gap-2 py-5 ">
+          <div className="text-gray-400 text-sm font-mono md:px-0 md:px-0 flex flex-wrap gap-2 py-5 ">
             <div className="bg-customGray    font-bold rounded-md px-4 py-3 ">
               <h4>Classic Tokens</h4>
             </div>

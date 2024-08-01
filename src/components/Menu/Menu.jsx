@@ -7,9 +7,9 @@ export default function Menu() {
     AOS.init({duration:2000})
   }, [])
   return (
-    <nav className="bg-black py-10  items-center justify-center">
+    <nav className="bg-black py-32  items-center justify-center">
       <div className="text-center ">
-        <h1 className="text-white font-bold py-12 text-8xl xs:text-4xl sm:text-5xl md:text-6xl">
+        <h1 className="text-white font-bold py-16  text-8xl xs:text-4xl sm:text-5xl md:text-6xl">
           All Crypto - One App
         </h1>
         <button className="bg-white content-center text-black font-bold rounded-xl py-4 px-6">
@@ -43,7 +43,7 @@ export default function Menu() {
           </div>
         </div>
 
-        <div className="flex justify-center py-32 relative z-10">
+        <div className="flex justify-center py-32 relative z-1">
           <img src="phone.png" className="cover  w-[30vw]"></img>
         </div>
 
