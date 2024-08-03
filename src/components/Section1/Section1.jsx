@@ -95,21 +95,21 @@ export default function Section1() {
         </div>
       </div>
 
-      <div className="flex justify-around md:flex-col md:items-center md:text-center sm:flex-col sm:items-center sm:text-center xs:flex-col xs:items-center xs:text-center">
+      <div className="flex  md:flex-col md:justify-center md:items-center md:text-center sm:flex-col sm:justify-center sm:items-center sm:text-center xs:flex-col xs:justify-center xs:items-center xs:text-center">
         <div className="w-96 py-12">
-          <div className="py-3">
-            <img src="ico5.svg"></img>
+          <div className="py-3 ">
+            <img src="ico5.svg" className='md:m-auto sm:m-auto xs:m-auto'></img>
           </div>
           <div className="text-white">
             <h3 className="font-bold text-3xl py-6">
               Your gateway to a rewarding crypto experience
             </h3>
-            <p className="text-gray-500 font-bold  mr-24">
+            <p className="text-gray-500 font-bold md:mr-0 sm:mr-0 xs:mr-0  mr-24">
               At Blum, we believe in making your crypto journey not just
               profitable, but also enjoyable and interactive
             </p>
           </div>
-          <div className="text-gray-400 text-sm font-mono text-cenetr flex flex-wrap gap-2 py-5 ">
+          <div className="text-gray-400  md:px-0 sm:px-0 sm:justify-center sm:items-center xs:px-0 xs:justify-center xs:items-center text-sm font-mono text-cenetr flex flex-wrap gap-2 py-5 ">
             <div className="bg-customGray    font-bold rounded-md px-4 py-3 ">
               <h4>Leaderboards</h4>
             </div>
@@ -124,7 +124,7 @@ export default function Section1() {
             </div>
           </div>
         </div>
-        <div className="text-center w-80">
+        <div className="text-center md:w-1/2 sm:w-1/2 xs:w-10/12 flex justify-center items-center w-80">
           <img src="phone4.png" className="h-[85vh] animation" data-aos="zoom-in"></img>
         </div>
       </div>
