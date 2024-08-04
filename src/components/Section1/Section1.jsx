@@ -95,7 +95,7 @@ export default function Section1() {
         </div>
       </div>
 
-      <div className="flex  md:flex-col md:justify-center md:items-center md:text-center sm:flex-col sm:justify-center sm:items-center sm:text-center xs:flex-col xs:justify-center xs:items-center xs:text-center">
+      <div className="flex justify-around  md:flex-col md:justify-center md:items-center md:text-center sm:flex-col sm:justify-center sm:items-center sm:text-center xs:flex-col xs:justify-center xs:items-center xs:text-center">
         <div className="w-96 py-12">
           <div className="py-3 ">
             <img src="ico5.svg" className='md:m-auto sm:m-auto xs:m-auto'></img>
@@ -157,10 +157,11 @@ export default function Section1() {
         </div>
       </div>
 
-      <div className="flex justify-around pt-10 rounded-xl bg-lime-300 mx-8">
-        <div className="w-1/4 text-center content-center animation " data-aos="zoom-in">
+
+      <div className="flex justify-around md:flex-col md:justify-center md:items-center md:text-center sm:flex-col sm:justify-center sm:items-center sm:text-center xs:flex-col xs:justify-center xs:items-center xs:text-center  pt-10 rounded-xl bg-lime-300 mx-8">
+        <div className="w-1/4 md:w-1/2 xs:w-5/6 sm:w-5/6 text-center content-center animation " data-aos="zoom-in">
           <div className=" text-center">
-            <h3 className="text-4xl font-bold ">
+            <h3 className="text-4xl sm:text-2xl xs:text-xl sm:m-0 font-bold ">
               Start your crypto journey with Blum today
             </h3>
           </div>
@@ -170,7 +171,7 @@ export default function Section1() {
             </button>
           </div>
         </div>
-        <div className="w-1/3">
+        <div className="w-1/3 md:w-1/2 sm:w-4/6 xs:w-4/6 ">
           <img src="phone5.png"></img>
         </div>
       </div>
