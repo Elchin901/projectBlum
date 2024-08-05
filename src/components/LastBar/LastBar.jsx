@@ -29,12 +29,12 @@ export default function LastBar() {
               requests, please reach out to us <a href="#" className="underline hover:text-white">here</a>.
             </p>
           </div>
-
-          <div className="w-1/3 flex relative">
+{/* 
+          <div className="w-1/3 flex relative ">
             <div className="flex  justify-end absolute bottom-0 right-0 m-0 gap-12 pr-8">
               <a href="#">
                 <img src="/telegram.svg" className="w-6 h-6"></img>
-              </a>
+              </a> */}
 
               <a href="#">
                 <img src="/discord.svg" className="w-6 h-6"></img>
