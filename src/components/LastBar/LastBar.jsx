@@ -23,12 +23,12 @@ export default function LastBar() {
         </div>
 
         <div className="flex sm:flex-col sm:flex sm:justify-center sm:text-center justify-between py-10">
-          <div className="w-1/3 sm:w-5/6">
+          {/* <div className="w-1/3 sm:w-5/6">
             <p className="text-gray-600 text-lg hover:text-white">
               For investment inquiries,<a href="#" className="underline hover:text-white ">please reach</a>  out to us. For community
               requests, please reach out to us <a href="#" className="underline hover:text-white">here</a>.
             </p>
-          </div>
+          </div> */}
 
           <div className="w-1/3 sm:w-5/6 flex relative ">
             <div className="flex  justify-end absolute bottom-0 right-0 m-0 gap-12 pr-8">
