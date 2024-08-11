@@ -29,7 +29,7 @@ export default function Menu() {
         </div>
 
         <div className="flex justify-center py-32 relative z-1">
-          <img src="phone.png" className="cover  w-[30vw]"></img>
+          <img src="phone.png" className="  w-[30vw]"></img>
         </div>
 
         <div>
