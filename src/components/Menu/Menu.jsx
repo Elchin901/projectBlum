@@ -51,7 +51,7 @@ export default function Menu() {
             <img src="12.svg"></img>
 
           </div> */}
-          <div className="grid grid-cols-6 justify-center  gap-24  my-20 px-12">
+          <div className="grid grid-cols-6 md:grid md:grid-cols-4 sm:grid sm:grid-cols-3 xs:grid xs:grid-cols-2 justify-center  gap-24  my-20 px-12">
             <div className="flex justify-center ">
                 <img src="1.svg" alt="Cosmos" className="h-7" data-aos="zoom-in" />
             </div>
