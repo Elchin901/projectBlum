@@ -12,12 +12,12 @@ export default {
 
       keyframes: {
         'slide-left': {
-          from: { transform: 'translateX(0)' },
+          from: { transform: 'translateX(10)' },
           to: { transform: 'translateX(-100%)' },
         },
       },
       animation: {
-        'slide-left-infinite': 'slide-left 10s linear infinite',
+        'slide-left-infinite': 'slide-left 5s   linear infinite',
       },
       screens :{
         'xs' : {'min': '340px', 'max': '540px'},

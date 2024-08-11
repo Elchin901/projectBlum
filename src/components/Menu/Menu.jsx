@@ -16,30 +16,15 @@ export default function Menu() {
           <a href="#">Launch Blum on Telegram</a>
         </button>
 
-        <div className="z-0 pt-96 absolute w-full  ">
-          <div className=" relative overflow-hidden whitespace-nowrap ">
-            <div className="animate-slide-left-infinite  flex ">
-              <img src="toke1.png" className=" inline  mx-20 " />
-              <img src="toke2.png" className=" inline  mx-20" />
-              <img src="toke4.png" className=" inline  mx-20" />
-              <img src="toke1.png" className=" inline  mx-20 " />
-              <img src="toke2.png" className=" inline  mx-20" />
-              <img src="toke4.png" className=" inline  mx-20" />
-              <img src="toke1.png" className=" inline  mx-20 " />
-              <img src="toke2.png" className=" inline  mx-20" />
-              <img src="toke4.png" className=" inline  mx-20" />
-              <img src="toke1.png" className=" inline  mx-20 " />
-              <img src="toke2.png" className=" inline  mx-20" />
-              <img src="toke4.png" className=" inline  mx-20" />
+        <div className="z-0 pt-96 absolute md:pt-56 sm:pt-32 xs:pt-40 w-full  ">
+          <div className=" relative  overflow-hidden whitespace-nowrap ">
+            <div className="animate-slide-left-infinite size-[350px] gap[-6] flex md:size-[250px] sm:size-[190px] xs:size-[150px] ">
+              <img src="toke6.png" className=" " />
+              <img src="toke7.png" className="" />
+              <img src="toke8.png" className="" />
+              <img src="toke5.png" className=" " />
+              <img src="toke6.png" className="" />             
             </div>
-            {/* <div className="animate-slide-left-infinite  inline-block  ">
-              <img src="toke1.png" className=" inline  mx-20 " />
-              <img src="toke2.png" className=" inline  mx-20" />
-              <img src="toke4.png" className=" inline  mx-20" />
-              <img src="toke1.png" className=" inline  mx-20 " />
-              <img src="toke2.png" className=" inline  mx-20" />
-              <img src="toke4.png" className=" inline  mx-20" />
-            </div> */}
           </div>
         </div>
 
