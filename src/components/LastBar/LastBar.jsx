@@ -15,8 +15,8 @@ export default function LastBar() {
             </div>
           </div>
 
-          <div className="w-1/4 sm:w-5/6   sm:text-center md:w-5/6   md:text-center xs:w-5/6   xs:text-center ">
-            <span className="text-gray-600  underline hover:text-white bottom-0 right-0 m-0">
+          <div className="w-1/4 sm:w-5/6 flex justify-center lg:relative xl:relative  sm:text-center md:w-5/6   md:text-center xs:w-5/6   xs:text-center ">
+            <span className="text-gray-600  underline lg:absolute lg:bottom-0 lg:right-0 xl:absolute xl:bottom-0 xl:right-0 hover:text-white  ">
               <a href="#">Privarcy Policy</a>
             </span>
           </div>

@@ -91,6 +91,10 @@ export default function Menu() {
         </div>
         </div>
 
+        {/* <div>
+          <span className='text-[#282829] text-9xl font-extrabold w-full font-mono'>You can trade any token</span>
+        </div> */}
+
 
       </div>
     </nav>

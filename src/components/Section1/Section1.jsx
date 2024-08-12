@@ -43,7 +43,7 @@ export default function Section1() {
         </div>
       </div>
 
-      <div className="flex md:flex-col md:justify-center md:items-center md:text-center sm:flex-col sm:justify-center sm:items-center sm:text-center xs:flex-col xs:justify-center xs:items-center xs:text-center justify-around px-6 py-48">
+      <div className="flex md:flex-col md:justify-center md:items-center md:text-center sm:flex-col sm:justify-center sm:items-center sm:text-center xs:flex-col xs:justify-center xs:items-center xs:text-center justify-between px-6 py-48">
         <div className="w-1/5 md:w-4/6 sm:w-5/6 xs:w-5/6">
           <div>
             <div>
@@ -68,7 +68,7 @@ export default function Section1() {
         </div>
 
         <div className="w-1/5 md:4/6 sm:w-5/6 xs:w-5/6">
-          <img src="phone3.png" className="h-[80vh] animation md:m-auto sm:m-auto xs:m-auto " data-aos="zoom-in"></img>
+          <img src="phone3.png" className="w-[90vh] animation md:m-auto sm:m-auto xs:m-auto " data-aos="zoom-in"></img>
         </div>
 
         <div className="w-1/5 md:w-4/6 sm:w-5/6 xs:w-5/6">
@@ -109,7 +109,7 @@ export default function Section1() {
               profitable, but also enjoyable and interactive
             </p>
           </div>
-          <div className="text-gray-400  md:px-0 sm:px-0 sm:justify-center sm:items-center xs:px-0 xs:justify-center xs:items-center text-sm font-mono text-cenetr flex flex-wrap gap-2 py-5 ">
+          <div className="text-gray-400  md:px-0 md:justify-center md:items-center sm:px-0 sm:justify-center sm:items-center xs:px-0 xs:justify-center xs:items-center text-sm font-mono text-cenetr flex flex-wrap gap-2 py-5 ">
             <div className="bg-customGray    font-bold rounded-md px-4 py-3 ">
               <h4>Leaderboards</h4>
             </div>
