@@ -68,7 +68,7 @@ export default function Section1() {
         </div>
 
         <div className="w-1/5 md:4/6 sm:w-5/6 xs:w-5/6">
-          <img src="phone3.png" className="w-[90vh] animation md:m-auto sm:m-auto xs:m-auto " data-aos="zoom-in"></img>
+          <img src="phone3.png" className="h-[85vh] animation md:m-auto sm:m-auto xs:m-auto " data-aos="zoom-in"></img>
         </div>
 
         <div className="w-1/5 md:w-4/6 sm:w-5/6 xs:w-5/6">
